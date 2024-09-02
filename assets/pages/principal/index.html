@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Leitura Online</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="shortcut icon" href="../../img/search_book_open_search_locate_6178.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="menu">
+            <a href="../about/about.html" id="about-link" class="menu-link">Sobre</a>
+            <!-- <select id="languageSelect" class="language-select">
+                <option value="pt-br">Português</option>
+                <option value="en">English</option>
+            </select> -->
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="content">
+            <h1 id="greeting">Olá! Seja bem vindo ao <strong class="highlight-title">leitura online!</strong></h1>
+            <p id="intro">Basta digitar o título em português ou em inglês no campo de pesquisa e clicar em "Pesquisar". O sistema irá buscar livros correspondentes e exibir links para que você possa lê-los online.</p>
+
+            <div class="links">
+                <h2 class="subtitle" id="social">Acesse as minhas redes</h2>
+                <a href="https://github.com/euvitorti" id="github-link" class="access-link">
+                    <img src="../../img/github.png" alt="" width="25px" height="25px">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/joaolima23" id="linkedin-link" class="access-link">
+                    <img src="../../img/linkedin.png" alt="" width="25px" height="25px">
+                    Linkedin
+                </a>
+            </div>
+        </section>
+
+        <section class="contentlink">
+            <div>
+                <form id="book-form">
+                    <h2 id="form-title">Digite o nome do livro aqui:</h2>
+                    <input type="text" id="book-title" name="book-title" required>
+                    <button type="submit" id="search-button" class="btn-find">Pesquisar</button>
+                </form>
+            </div>
+            <div>
+                <table id="books-table">
+                    <thead>
+                    <tr>
+                        <th id="table-header">Link</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- Books data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p id="footer-text">Desenvolvido por João Vítor</p>
+    </footer>
+
+    <script src="../../script/principal/index.js"></script>
+</body>
+
+</html>

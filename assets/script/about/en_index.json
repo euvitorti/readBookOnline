@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Online Reading",
+  "aboutLink": "About",
+  "greeting": "Hello! Welcome to <strong class=\"highlight-title\">online reading!</strong>",
+  "intro": "Just type the title in Portuguese or English in the search field and click \"Search\". The system will look for matching books and display links so you can read them online.",
+  "social": "Access my networks",
+  "githubLink": "GitHub",
+  "linkedinLink": "LinkedIn",
+  "formTitle": "Enter the book name here:",
+  "searchButton": "Search",
+  "tableHeader": "Link",
+  "footerText": "Developed by João Vítor"
+}
